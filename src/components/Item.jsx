@@ -3,12 +3,15 @@ import "./Item.css";
 
 class Item extends Component {
   static defaultProps = {
-    title: "hdhbdhb"
+    title: "hdhbdhb",
+    votes: 23
   };
   render() {
     return (
       <div className="Item">
-        <h3>{this.props.title}</h3>
+        <h3>
+          {this.props.votes} {this.props.title}
+        </h3>
       </div>
     );
   }
