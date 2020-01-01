@@ -1,2 +1,0 @@
-# hackernewsAgg
-Created with CodeSandbox
